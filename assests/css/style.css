@@ -2,13 +2,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.main-header {
+    vertical-align: text-bottom;
+    color: rgb(255, 0, 0);
+    margin: 0px;
+    font-weight: 100;
+    font-size: 35px;
+    padding-right: 20px;
+
+}
+
 .header {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     margin-bottom: 2px;
     font-size: 25px;
-    color: rgb(255, 0, 0);
+    color: rgb(140, 140, 140);
 }
 
 .nav-bar {
@@ -45,15 +55,16 @@
 .about-me { 
     display: flex;
     flex-direction: column;
-    border: dashed red;
+    /* border: dashed red; */
     font-size: 15px;
 }
 
 .work {
     display: flex;
-    border: solid;
-    border-width: 5px;
-    border-color: darkgreen;
+    flex-wrap: wrap;
+    /* border: solid; */
+    /* border-width: 5px; */
+    /* border-color: darkgreen; */
     justify-content: space-around;
 }
 
@@ -62,12 +73,17 @@
     position: relative;
     border: solid;
     border-width: 5px;
+    /* max-width: 100%; */
+    /*  */
+    max-width: 600px;
+    max-height: 600px;
+    margin: 5px;
 }
 
 .project-column {
     display: flex;
     flex-direction: column;
-    border: dashed red;
+    /* border: dashed red; */
 }
 
 .small-project{
@@ -75,22 +91,12 @@
     position: relative;
     border: solid;
     border-width: 5px;
-}
-
-.contact {
-    display: flex;
-    border: solid;
-    justify-content: center;
-}
-
-.main-header {
-    vertical-align: text-bottom;
-    color: rgb(140, 140, 140);
-    margin: 0px;
-    font-weight: 100;
-    font-size: 35px;
-    padding-right: 20px;
-
+    /* max-width: 100%; */
+    /*  */
+    max-width: 400px;
+    max-height: 300px;
+    margin: 5px;
+    
 }
 
 .project-header {
@@ -101,3 +107,31 @@
     font-size: 35px;
 }
 
+.main-app {
+    width: 100%;
+  height: auto;
+}
+
+.side-app {
+    width: 100%;
+  height: auto;
+}
+
+.contact {
+    display: flex;
+    border-top: solid;
+    border-top-width: 5px;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+
+.contact-head {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    font-weight: 100;
+}
+
+.contact-icon {
+    height: 70px;
+    width: 70px;
+}
