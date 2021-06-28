@@ -135,6 +135,12 @@
     height: 70px;
     width: 70px;
 }
-.l {
-    width: inherit;
+.ppp {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+.linkButton {
+    margin: 10px;
 }
